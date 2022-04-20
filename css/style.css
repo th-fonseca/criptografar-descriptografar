@@ -28,25 +28,23 @@ img {
   max-width: 1100px;
   margin: auto;
   gap: 80px;
+height: 904px;
 }
 
 .campo {
   display: grid;
   align-content: end;
   justify-content: center;
-  gap: 400px;
+
+  /* gap: 400px; */
 }
 
 .campo-digitacao {
-  display: grid;
-  align-content: end;
-  justify-content: center;
+ display: flex;
   height: 48px;
   width: 680px;
-  margin-top: 168px;
 }
-
-::-webkit-input-placeholder {
+.campo-digitacao::placeholder{
   font-family: "Inter";
   font-size: 32px;
   line-height: 150%;
@@ -58,6 +56,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 500px;
 }
 
 .botao {
@@ -91,4 +90,9 @@ img {
   padding: 40px;
   border-radius: 32px;
   margin-top: 40px;
+
+}
+
+.sem-palavra{
+  margin-top: 240px;
 }
