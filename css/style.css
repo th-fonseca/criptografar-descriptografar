@@ -1,0 +1,96 @@
+p,
+span,
+h1,
+h2,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+img {
+  max-width: 100%;
+}
+.invisivel {
+  display: none;
+}
+.logo {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.container-principal {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  max-width: 1100px;
+  margin: auto;
+  gap: 80px;
+}
+
+.campo {
+  display: grid;
+  align-content: end;
+  justify-content: center;
+  gap: 400px;
+}
+
+.campo-digitacao {
+  display: grid;
+  align-content: end;
+  justify-content: center;
+  height: 48px;
+  width: 680px;
+  margin-top: 168px;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+  text-align: center;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.botao {
+  border: transparent;
+  padding: 24px;
+  border-radius: 24px;
+  flex-grow: 1;
+  background: #0a3871;
+  font-family: "Inter";
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+
+}
+
+.botao2 {
+  padding: 24px;
+  border-radius: 24px;
+  flex-grow: 1;
+  border: 1px solid #0A3871;
+box-sizing: border-box;
+margin-bottom: 40px;
+
+
+}
+
+.resultado {
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 32px;
+  margin-top: 40px;
+}
